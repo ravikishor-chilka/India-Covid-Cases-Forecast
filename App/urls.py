@@ -4,7 +4,7 @@ from App import views
 
 urlpatterns = [
     path("", views.index, name='App'),
-    path("contact", views.contact, name='Contact'),
-    path("symptoms", views.symptoms, name='symptoms'),
-    path("donate", views.donate, name='donate')
+    path("donate", views.donate, name='Donate'),
+    path("symptoms", views.symptoms, name='Symptoms'),
+    path("contact", views.contact, name='Contact')
 ]
