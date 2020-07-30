@@ -51,5 +51,5 @@ def symptoms(request):
     return render(request,'symptoms.html') 
      
 def contact(request):
-    return render(request,'conatct.html')
+    return render(request,'contact.html')
     
