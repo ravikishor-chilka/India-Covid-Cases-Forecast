@@ -44,17 +44,13 @@ def index(request):
         context={"statedata": statedata} 
     return render(request ,'index.html', context)
 
-def contact(request):
-    return render(request,'contact.html') 
-    #return HttpResponse("COntact ......FBI wants to know your location!")
+def donate(request):
+    return render(request,'donate.html') 
 
-def ref(request):
-    return HttpResponse("SYMPTOMS: ") 
+def symptoms(request):
+    return render(request,'symptoms.html') 
      
-def variable(request):
-    context={
-        'a':"....."
+def contact(request):
 
-    }
-    return render(request,'variable.html',context)
+    return render(request,'conatct.html')
     

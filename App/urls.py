@@ -5,6 +5,6 @@ from App import views
 urlpatterns = [
     path("", views.index, name='App'),
     path("contact", views.contact, name='Contact'),
-    path("ref", views.ref, name='Ref'),
-    path("variable", views.variable, name='variable')
+    path("symptoms", views.symptoms, name='symptoms'),
+    path("donate", views.donate, name='donate')
 ]
